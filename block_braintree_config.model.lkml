@@ -1,8 +1,8 @@
 include: "/views/*.view.lkml"
 
 
-explore: trasaction_config {
-  extends: [trasaction_core]
+explore: transaction_config {
+  extends: [transaction_core]
   extension: required
 }
 

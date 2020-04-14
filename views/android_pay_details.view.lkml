@@ -1,4 +1,2 @@
-view: android_pay_details_config {
-  extends: [android_pay_details_core]
-  extension: required
-}
+view: +android_pay_details {}
+include: "//block-braintree-core/views/android_pay_details_core.view.lkml"

@@ -1,4 +1,2 @@
-view: registered_customer_config {
-  extends: [registered_customer_core]
-  extension: required
-}
+view: +registered_customer {}
+include: "//block-braintree-core/views/registered_customer_core.view.lkml"

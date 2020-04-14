@@ -1,4 +1,2 @@
-view: credit_card_config {
-  extends: [credit_card_core]
-  extension: required
-}
+view: +credit_card {}
+include: "//block-braintree-core/views/credit_card_core.view.lkml"

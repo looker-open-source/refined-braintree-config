@@ -1,3 +1,3 @@
-include: "//refinement-braintree-core/views/transaction.view.lkml"
+include: "//@{CORE_PROJECT}/views/transaction.view.lkml"
 
 view: +transaction {}

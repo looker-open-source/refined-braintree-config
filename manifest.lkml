@@ -1,6 +1,3 @@
-project_name: "block-braintree-config"
-
-
 local_dependency: {
   project: "@{CORE_PROJECT}"
 }

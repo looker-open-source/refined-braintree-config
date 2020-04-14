@@ -1,4 +1,2 @@
-view: transaction_discount_config {
-  extends: [transaction_discount_core]
-  extension: required
-}
+view: +transaction_discount {}
+include: "//block-braintree-core/views/transaction_discount_core.view.lkml"

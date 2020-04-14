@@ -1,4 +1,2 @@
-view: transaction_add_on_config {
-  extends: [transaction_add_on_core]
-  extension: required
-}
+view: +transaction_add_on {}
+include: "//block-braintree-core/views/transaction_add_on_core.view.lkml"

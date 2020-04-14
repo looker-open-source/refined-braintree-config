@@ -1,4 +1,2 @@
-view: merchant_account_config {
-  extends: [merchant_account_core]
-  extension: required
-}
+view: +merchant_account {}
+include: "//block-braintree-core/views/merchant_account_core.view.lkml"

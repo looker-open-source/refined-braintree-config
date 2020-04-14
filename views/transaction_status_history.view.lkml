@@ -1,4 +1,2 @@
-view: transaction_status_history_config {
-  extends: [transaction_discount_core]
-  extension: required
-}
+view: +transaction_status_history {}
+include: "//block-braintree-core/views/transaction_status_history_core.view.lkml"

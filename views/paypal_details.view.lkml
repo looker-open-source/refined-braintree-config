@@ -1,4 +1,2 @@
-view: paypal_details_config {
-  extends: [paypal_details_core]
-  extension: required
-}
+view: +paypal_details {}
+include: "//block-braintree-core/views/paypal_details_core.view.lkml"

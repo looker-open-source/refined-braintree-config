@@ -1,4 +1,2 @@
-view: subscription_config {
-  extends: [subscription_core]
-  extension: required
-}
+view: +subscription {}
+include: "//block-braintree-core/views/subscription_core.view.lkml"

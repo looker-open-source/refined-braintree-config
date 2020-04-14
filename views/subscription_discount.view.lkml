@@ -1,4 +1,2 @@
-view: subscription_discount_config {
-  extends: [subscription_discount_core]
-  extension: required
-}
+view: +subscription_discount {}
+include: "//block-braintree-core/views/subscription_discount_core.view.lkml"

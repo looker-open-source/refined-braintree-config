@@ -1,4 +1,2 @@
-view: dispute_config {
-  extends: [dispute_core]
-  extension: required
-}
+view: +dispute {}
+include: "//block-braintree-core/views/dispute_core.view.lkml"

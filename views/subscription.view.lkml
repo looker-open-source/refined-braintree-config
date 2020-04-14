@@ -1,2 +1,2 @@
 view: +subscription {}
-include: "//refinement-braintree-core/views/subscription_core.view.lkml"
+include: "//refinement-braintree-core/views/subscription.view.lkml"

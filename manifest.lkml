@@ -9,3 +9,7 @@ constant: CONNECTION_NAME {
 constant: CORE_PROJECT {
   value: "refinement-braintree-core"
 }
+
+constant: DATASET_NAME{
+  value: "braintree"
+}

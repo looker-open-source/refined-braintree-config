@@ -1,2 +1,2 @@
 view: +registered_customer {}
-include: "//block-braintree-core/views/registered_customer_core.view.lkml"
+include: "//refinement-braintree-core/views/registered_customer_core.view.lkml"

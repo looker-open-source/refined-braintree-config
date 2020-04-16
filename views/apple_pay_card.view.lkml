@@ -1,3 +1,3 @@
-include: "//@{CORE_PROJECT}/views/apple_pay_card.view.lkml"
+include: "//refinement-braintree-core/views/apple_pay_card.view.lkml"
 
 view: +apple_pay_card {}

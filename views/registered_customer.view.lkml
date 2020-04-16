@@ -1,3 +1,3 @@
-include: "//@{CORE_PROJECT}/views/registered_customer.view.lkml"
+include: "//refinement-braintree-core/views/registered_customer.view.lkml"
 
 view: +registered_customer {}

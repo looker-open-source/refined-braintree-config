@@ -1,3 +1,3 @@
-include: "//@{CORE_PROJECT}/views/masterpass_card_details.view.lkml"
+include: "//refinement-braintree-core/views/masterpass_card_details.view.lkml"
 
 view: +masterpass_card_details {}

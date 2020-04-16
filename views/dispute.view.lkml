@@ -1,3 +1,3 @@
-include: "//@{CORE_PROJECT}/views/dispute.view.lkml"
+include: "//refinement-braintree-core/views/dispute.view.lkml"
 
 view: +dispute {}

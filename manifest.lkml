@@ -5,7 +5,3 @@ local_dependency: {
 constant: CORE_PROJECT {
   value: "refinement-braintree-core"
 }
-
-constant: CONNECTION_NAME {
-  value: "brick-layer"
-}

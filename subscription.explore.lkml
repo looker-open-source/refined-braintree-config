@@ -1,4 +1,4 @@
-include: "//@{CORE_PROJECT}/subscription.explore.lkml"
-include: "//@{CORE_PROJECT}/views/*"
+include: "//@{CORE_PROJECT}/subscription.explore"
+include: "/views/*"
 
 explore: +subscription {}

@@ -3,5 +3,5 @@ local_dependency: {
 }
 
 constant: CORE_PROJECT {
-  value: "refinement-braintree-core"
+  value: "marketplace_braintree"
 }

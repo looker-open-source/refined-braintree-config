@@ -1,5 +1,10 @@
 include: "//@{CORE_PROJECT}/*model"
 include: "/views/*"
 
-explore: +subscription {}
-explore: +transaction  {}
+explore: subscription {
+  extends: [subscription_core]
+}
+
+explore: transaction  {
+  extends: [transaction_core]
+}

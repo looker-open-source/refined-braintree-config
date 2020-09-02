@@ -6,3 +6,4 @@ include: "/views/*"
 
 explore: +subscription {}
 explore: +transaction {}
+explore: +derived {}

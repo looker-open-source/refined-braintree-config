@@ -1,14 +1,9 @@
-constant: CORE_PROJECT {
-  value: "refinement-braintree-core"
-}
+project_name: "refinement-braintree-core"
 
-constant: ROW_FILTER {
-  value: "10"
+constant: CORE_PROJECT {
+  value: "block-braintree-core"
 }
 
 local_dependency: {
-  project: "@{CORE_PROJECT}"
-  override_constant: ROW_FILTER {
-    value: "5"
-  }
+  project: "refinement-braintree-core"
 }

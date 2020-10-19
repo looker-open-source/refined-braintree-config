@@ -1,7 +1,7 @@
-project_name: "refinement-braintree-core"
+project_name: "refinement-braintree-config"
 
 constant: CORE_PROJECT {
-  value: "block-braintree-core"
+  value: "refinement-braintree-core"
 }
 
 local_dependency: {
